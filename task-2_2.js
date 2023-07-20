@@ -5,7 +5,7 @@ let totalPrice
 
 if (howMany === null) {
     console.log("«Операцію скасовано!»")
-} else if (howMany < 1) {
+} else if (Number(howMany) < 1) {
     console.log("«Невірно введені дані!»")
 } else {
     totalPrice = howMany * price
